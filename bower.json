@@ -1,0 +1,28 @@
+{
+  "name": "next-is-primitive-value",
+  "version": "0.0.1",
+  "description": "Check if is primitive value",
+  "main": "dist/next-is-primitive-value.js",
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "next"
+  ],
+  "homepage": "https://github.com/afeiship/next-is-primitive-value",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "build",
+    "src",
+    "gulp",
+    "gulpfile.js"
+  ]
+}
