@@ -1,8 +1,8 @@
 {
-  "name": "next-is-primitive-value",
+  "name": "next-is-primitive",
   "version": "1.0.0",
   "description": "Check if is primitive value",
-  "homepage": "https://github.com/afeiship/next-is-primitive-value",
+  "homepage": "https://github.com/afeiship/next-is-primitive",
   "author": {
     "name": "afei",
     "email": "1290657123@qq.com"
@@ -12,7 +12,7 @@
     "test": "jest",
     "version": "gulp bump"
   },
-  "main": "dist/next-is-primitive-value.js",
+  "main": "dist/next-is-primitive.js",
   "license": "MIT",
   "devDependencies": {
     "del": "^2.2.1",

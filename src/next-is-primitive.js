@@ -5,7 +5,7 @@
   var NUM = 'number';
   var STR = 'string';
 
-  nx.isPrimitiveValue = function(inTarget) {
+  nx.isPrimitive = function(inTarget) {
     if (inTarget == null) {
       return true;
     }
@@ -14,6 +14,6 @@
   };
 
   if (typeof module !== 'undefined' && module.exports) {
-    module.exports = nx.isPrimitiveValue;
+    module.exports = nx.isPrimitive;
   }
 })();

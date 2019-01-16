@@ -1,7 +1,7 @@
 var nx = require('next-js-core2');
-require('../src/next-is-primitive-value');
+require('../src/next-is-primitive');
 
-test('nx.isPrimitiveValue', function() {
+test('nx.isPrimitive', function() {
   var v1 = null;
   var v2 = undefined;
   var v3 = NaN;
@@ -15,16 +15,16 @@ test('nx.isPrimitiveValue', function() {
   var v11 = /test/g;
 
 
-  expect(nx.isPrimitiveValue(v1)).toBe(true);
-  expect(nx.isPrimitiveValue(v2)).toBe(true);
-  expect(nx.isPrimitiveValue(v3)).toBe(true);
-  expect(nx.isPrimitiveValue(v4)).toBe(true);
-  expect(nx.isPrimitiveValue(v5)).toBe(true);
-  expect(nx.isPrimitiveValue(v6)).toBe(true);
-  expect(nx.isPrimitiveValue(v7)).toBe(true);
-  expect(nx.isPrimitiveValue(v8)).toBe(false);
-  expect(nx.isPrimitiveValue(v9)).toBe(false);
-  expect(nx.isPrimitiveValue(v10)).toBe(false);
-  expect(nx.isPrimitiveValue(v11)).toBe(false);
+  expect(nx.isPrimitive(v1)).toBe(true);
+  expect(nx.isPrimitive(v2)).toBe(true);
+  expect(nx.isPrimitive(v3)).toBe(true);
+  expect(nx.isPrimitive(v4)).toBe(true);
+  expect(nx.isPrimitive(v5)).toBe(true);
+  expect(nx.isPrimitive(v6)).toBe(true);
+  expect(nx.isPrimitive(v7)).toBe(true);
+  expect(nx.isPrimitive(v8)).toBe(false);
+  expect(nx.isPrimitive(v9)).toBe(false);
+  expect(nx.isPrimitive(v10)).toBe(false);
+  expect(nx.isPrimitive(v11)).toBe(false);
 
 });
